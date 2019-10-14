@@ -1,8 +1,8 @@
 provider "aws" {
   version = "~> 2.0"
   region  = "us-east-1"
-  access_key = "AKIA6N4RZV6SM3CMCOHP"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_instance" "webLouis" {
@@ -123,5 +123,5 @@ resource "aws_security_group" "allow_ssh" {
 
 resource "aws_key_pair" "key_tiennery" {
 	key_name = "puKe"
-	public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjLyr7dppuptZi5UZk2a2H2EhXKpeR9i9Lsx64SwBYewn9zeUipFvKiC4IztiSdpJOLT2rYeix/FDvcrcmmbXGh6dEJbQtFYsAUGOPnrc2CnS1BHYIkAqTb4y30FBIJPDB4N1q3heep5U0P1Ed6c5cYpVDp+qNjQvGV2O3x3ZAxMjgUK0YZopjolSG+PVe8e+fVa2n3UztUQuOqzo7J0GPbecvUaheXANQkza97mEbUccPqiXZjrPyzkyc7s3gE9TNjtKV3hjF1ROmNSNh0xIiGU8LYe/rofkLvp062NnB1GThbQ1Q0ZZI+QWLWe9eFQeJybMzkLfB0//2C1kniAjqw== rsa-key-20191008"
+	public_key = ""
 }
